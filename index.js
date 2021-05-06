@@ -7,6 +7,11 @@ const fs = require("fs");
 const questions = [
   {
     type: "input",
+    message: "Name of README file?",
+    name: "Filename",
+  },
+  {
+    type: "input",
     message: "What is the title of your project?",
     name: "Title",
   },
@@ -77,7 +82,7 @@ function init() {
   inquirer.prompt(questions)
   .then(function(data) {
       let readme = generatorMarkdown(data);
-    writeToFile("README.md", readme);
+    writeToFile(data.Filename+".md", readme);
   })
 }
 
