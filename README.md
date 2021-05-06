@@ -19,7 +19,7 @@ This project is under the Unlicense license.
 # Contributing
 ​Contributors: Just me.
 # Tests
-To run, use: node index.js
+To run, use: npm install, node index.js
 # Questions
 If you have any questions about the app, contact dsollomoni at dsollomoni@gmail.com.
 
