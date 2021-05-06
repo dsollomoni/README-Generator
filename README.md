@@ -23,4 +23,4 @@ To run, use: node index.js
 # Questions
 If you have any questions about the app, contact dsollomoni at dsollomoni@gmail.com.
 
-Video: https://www.youtube.com/watch?v=mixurCiA2is
+Video: https://www.youtube.com/watch?v=rMWkmWiDzsE
